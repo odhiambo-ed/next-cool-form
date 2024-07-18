@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className="bg-green-300 flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="bg-green-300 h-screen items-center flex justify-center">
       <form
-        className="bg-white flex rounded-lg w-1/2 font-latoRegular"
+        className="bg-white flex rounded-lg font-latoRegular"
       >
         <div className="flex-1 text-gray-700  p-20">
           <h1 className="text-3xl pb-2 font-latoBold">
